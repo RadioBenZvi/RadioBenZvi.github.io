@@ -21,6 +21,7 @@ class _HomeDesktopState extends State<HomeDesktop>
     Widget build(BuildContext context) 
     {
         return Scaffold(
+            backgroundColor: Color.fromARGB(255, 0, 12, 22),
             body: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [

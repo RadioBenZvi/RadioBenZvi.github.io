@@ -22,6 +22,7 @@ class _RadioBenZviWebsiteState extends State<RadioBenZviWebsite>
     Widget build(BuildContext context) 
     {
         return MaterialApp.router(
+            debugShowCheckedModeBanner: false,
             title: 'Radio Ben Zvi Website',
             routerDelegate: Navigator.Delegate,
             routeInformationParser: Navigator.InformationParser,
