@@ -10,18 +10,18 @@ class PageRoutePath
         isUnknown = false;
 
     PageRoutePath.home() 
-        : id = 1, 
+        : id = 101, 
         isUnknown = false;
 
     PageRoutePath.podcasts() 
-        : id = 2, 
+        : id = 102, 
         isUnknown = false;
 
     PageRoutePath.unknown() 
         : id = -1,
         isUnknown = true;
 
-    bool get isLoadingPage => id == 0;
+    bool get isLoadingHomePage => id == 0;
     bool get isHomePage => id == 1;
     bool get isPodcastsPage => id == 2;
 }

@@ -2,9 +2,9 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:radio_ben_zvi_website/globals.dart' deferred as g;
+import 'package:radio_ben_zvi_website/globals.dart' as g;
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/pages/home/page.dart' deferred as Home;
+import 'package:radio_ben_zvi_website/pages/home/page.dart' as Home;
 
 class NavBarLogo extends RBZPages.Page
 {

@@ -6,7 +6,7 @@ import 'package:radio_ben_zvi_website/OORT/navigator/page_route_path.dart';
 import 'package:radio_ben_zvi_website/pages/podcasts/page.dart';
 import 'package:radio_ben_zvi_website/pages/unknown/page.dart';
 import 'package:radio_ben_zvi_website/pages/home/page.dart';
-import 'package:radio_ben_zvi_website/pages/loading/loading_main/page.dart';
+import 'package:radio_ben_zvi_website/pages/loading/loading_main.dart';
 
 class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifier, PopNavigatorRouterDelegateMixin<PageRoutePath>
 {
@@ -80,7 +80,7 @@ class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifi
 
         else
         {
-            if (configuration.isLoadingPage) _currentPage = Loading(ToPage: _handlePageChanged);
+            if (configuration.isLoadingHomePage) _currentPage = Loading(ToPage: _handlePageChanged);
             if (configuration.isHomePage) _currentPage = Home(ToPage: _handlePageChanged);
             if (configuration.isPodcastsPage) _currentPage = Podcasts(ToPage: _handlePageChanged);
 

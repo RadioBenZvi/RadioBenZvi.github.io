@@ -24,7 +24,7 @@ class PageRouteInformationParser extends RouteInformationParser<PageRoutePath>
         // Handle '/home'
         if (uri.pathSegments.first == "home") return PageRoutePath.home();
 
-        // Handle '/podcasts'
+        // Handle '/podcast'
         if (uri.pathSegments.first == "podcasts") return PageRoutePath.podcasts();
         
         // Handle unknown route
@@ -35,7 +35,7 @@ class PageRouteInformationParser extends RouteInformationParser<PageRoutePath>
     RouteInformation restoreRouteInformation(PageRoutePath configuration)
     {
         if (configuration.isUnknown) return RouteInformation(location: "/404");
-        if (configuration.isLoadingPage) return RouteInformation(location: "/");
+        if (configuration.isLoadingHomePage) return RouteInformation(location: "/");
         if (configuration.isHomePage) return RouteInformation(location: "/home");
         if (configuration.isPodcastsPage) return RouteInformation(location: "/podcasts");
 
