@@ -3,9 +3,9 @@
 import 'package:flutter/material.dart';
 import 'configure_web.dart' if (dart.library.html) 'configure_web.dart';
 
-import 'package:radio_ben_zvi_website/globals.dart' deferred as g;
-import 'package:radio_ben_zvi_website/OORT/app_data.dart' deferred as data;
-import 'package:radio_ben_zvi_website/OORT/navigator/navigator.dart' deferred as Navigator;
+import 'package:radio_ben_zvi_website/globals.dart' as g;
+import 'package:radio_ben_zvi_website/OORT/app_data.dart' as data;
+import 'package:radio_ben_zvi_website/OORT/navigator/navigator.dart' as Navigator;
 
 void main()
 {
