@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/datamodels/navbar_item_model.dart';
 import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/itemDesktop.dart';
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/itemMobile.dart';
+import 'package:radio_ben_zvi_website/datamodels/navbar_item_model.dart';
+import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
 import 'package:radio_ben_zvi_website/extensions/hover_extensions.dart';
 
 class NavBarItem extends RBZPages.Page 

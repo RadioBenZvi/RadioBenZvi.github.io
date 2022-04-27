@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/logo.dart' deferred as Logo;
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/logo.dart';
 
 class NavigationBarDesktop extends RBZPages.Page 
 {
@@ -17,7 +17,7 @@ class NavigationBarDesktop extends RBZPages.Page
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                    Logo.NavBarLogo(ToPage: ToPage)
+                    NavBarLogo(ToPage: ToPage)
                 ]
             )
         );

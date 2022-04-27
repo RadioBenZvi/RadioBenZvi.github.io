@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, prefer_const_constructors, non_constant_identifier_names
+// ignore_for_file: camel_case_types, prefer_const_constructors, non_constant_identifier_names, library_prefixes
 
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
