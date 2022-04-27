@@ -1,11 +1,14 @@
-// ignore_for_file: camel_case_types, prefer_const_constructors, non_constant_identifier_names
+// ignore_for_file: camel_case_types, prefer_const_constructors, non_constant_identifier_names, library_prefixes
 
 import 'package:flutter/material.dart';
-import 'package:responsive_builder/responsive_builder.dart';
+import 'package:responsive_builder/responsive_builder.dart' 
+    deferred as ResponsiveBuilder;
 
 import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/widgets/navigation_bar/desktop.dart';
-import 'package:radio_ben_zvi_website/widgets/navigation_bar/mobile.dart';
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/desktop.dart' 
+    deferred as NavigationBarDesktop;
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/mobile.dart' 
+    deferred as NavigationBarMobile;
 
 class Navigation_bar extends RBZPages.Page 
 {
@@ -14,9 +17,9 @@ class Navigation_bar extends RBZPages.Page
     @override
     Widget build(BuildContext context) 
     {
-        return ScreenTypeLayout(
-            mobile: NavigationBarMobile(),
-            tablet: NavigationBarDesktop(ToPage: ToPage)
+        return ResponsiveBuilder.ScreenTypeLayout(
+            mobile: NavigationBarMobile.NavigationBarMobile(),
+            tablet: NavigationBarDesktop.NavigationBarDesktop(ToPage: ToPage)
         );
     }
 }

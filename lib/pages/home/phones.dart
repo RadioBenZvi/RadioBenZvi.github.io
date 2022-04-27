@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:radio_ben_zvi_website/globals.dart' as g;
+import 'package:radio_ben_zvi_website/globals.dart' deferred as g;
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
 
 class HomePhone extends RBZPages.Page 

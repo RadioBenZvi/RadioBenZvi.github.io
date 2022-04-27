@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:radio_ben_zvi_website/pages/home/page.dart';
+import 'package:radio_ben_zvi_website/pages/home/page.dart' deferred as Home;
 
 import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
 
@@ -12,7 +12,7 @@ class Podcasts extends RBZPages.Page
     @override
     Widget build(BuildContext context) 
     {
-        ToPage(Home(ToPage: ToPage));
+        ToPage(Home.Home(ToPage: ToPage));
         return Scaffold(
             appBar: AppBar(
                 automaticallyImplyLeading: false,

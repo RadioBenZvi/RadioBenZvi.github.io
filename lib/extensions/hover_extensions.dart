@@ -1,7 +1,7 @@
 // ignore_for_file: avoid_web_libraries_in_flutter
 
 import 'package:flutter/material.dart';
-import "dart:html" as html;
+import "dart:html" deferred as html;
 
 extension HoverExtensions on Widget
 {

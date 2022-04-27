@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/pages/home/desktop.dart';
-import 'package:radio_ben_zvi_website/pages/home/phones.dart';
+import 'package:radio_ben_zvi_website/pages/home/desktop.dart' deferred as HomeDesktops;
+import 'package:radio_ben_zvi_website/pages/home/phones.dart' deferred as HomePhones;
 
 class Home extends RBZPages.Page 
 {
@@ -21,8 +21,8 @@ class _HomeState extends State<Home>
     Widget build(BuildContext context) 
     {
         return ScreenTypeLayout(
-            mobile: HomePhone(ToPage: widget.ToPage),
-            desktop: HomeDesktop(ToPage: widget.ToPage)
+            mobile: HomePhones.HomePhone(ToPage: widget.ToPage),
+            desktop: HomeDesktops.HomeDesktop(ToPage: widget.ToPage)
         );
     }
 }

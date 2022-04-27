@@ -2,11 +2,16 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:responsive_builder/responsive_builder.dart';
+import 'package:responsive_builder/responsive_builder.dart' 
+    deferred as ResponsiveBuilder;
 
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/itemDesktop.dart' 
+    deferred as NavigationBarDesktop;
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/itemMobile.dart' 
+    deferred as NavigationBarMobile;
+import 'package:radio_ben_zvi_website/datamodels/navbar_item_model.dart' 
+    deferred as NavBarItemModel;
 import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/datamodels/navbar_item_model.dart';
-import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/itemDesktop.dart';
 import 'package:radio_ben_zvi_website/extensions/hover_extensions.dart';
 
 class NavBarItem extends RBZPages.Page 
@@ -28,7 +33,7 @@ class NavBarItem extends RBZPages.Page
     @override
     Widget build(BuildContext context) 
     {
-        var model = NavBarItemModel(
+        var model = NavBarItemModel.NavBarItemModel(
             title: title,
             navigationToPage: navigationToPage,
             iconData: icon,
@@ -40,9 +45,9 @@ class NavBarItem extends RBZPages.Page
             },
             child: Provider.value(
                 value: model,
-                child: ScreenTypeLayout(
-                    tablet: NavBarItemDesktop(),
-                    mobile: NavBarItemMobile()
+                child: ResponsiveBuilder.ScreenTypeLayout(
+                    tablet: NavigationBarDesktop.NavBarItemDesktop(),
+                    mobile: NavigationBarMobile.NavBarItemMobile()
                 ).showCursorOnHover
             )
         );

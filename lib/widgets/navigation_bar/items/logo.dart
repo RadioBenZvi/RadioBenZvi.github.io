@@ -1,10 +1,10 @@
-// ignore_for_file: deprecated_member_use, non_constant_identifier_names, prefer_const_constructors
+// ignore_for_file: deprecated_member_use, non_constant_identifier_names, prefer_const_constructors, library_prefixes
 
 import 'package:flutter/material.dart';
 
-import 'package:radio_ben_zvi_website/globals.dart' as g;
+import 'package:radio_ben_zvi_website/globals.dart' deferred as g;
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/pages/home/page.dart';
+import 'package:radio_ben_zvi_website/pages/home/page.dart' deferred as Home;
 
 class NavBarLogo extends RBZPages.Page
 {
@@ -45,7 +45,7 @@ class _NavBarLogoState extends State<NavBarLogo>
                         hoverColor: Colors.transparent,
                         shape: StadiumBorder(),
                         child: Image.asset('assets/images/logo/logo.png'),
-                        onPressed: () => widget.ToPage(Home(ToPage: widget.ToPage))
+                        onPressed: () => widget.ToPage(Home.Home(ToPage: widget.ToPage))
                     )
                 )
             )
