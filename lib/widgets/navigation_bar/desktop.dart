@@ -1,9 +1,9 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, non_constant_identifier_names, library_prefixes
 
 import 'package:flutter/material.dart';
 
 import 'package:radio_ben_zvi_website/pages/stateless_page.dart' as RBZPages;
-import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/logo.dart';
+import 'package:radio_ben_zvi_website/widgets/navigation_bar/items/logo.dart' deferred as Logo;
 
 class NavigationBarDesktop extends RBZPages.Page 
 {
@@ -17,7 +17,7 @@ class NavigationBarDesktop extends RBZPages.Page
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                    NavBarLogo(ToPage: ToPage)
+                    Logo.NavBarLogo(ToPage: ToPage)
                 ]
             )
         );

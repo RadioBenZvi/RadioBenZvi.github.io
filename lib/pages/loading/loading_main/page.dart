@@ -1,8 +1,7 @@
 // ignore_for_file: non_constant_identifier_names, prefer_const_constructors, library_prefixes, prefer_const_literals_to_create_immutables
 
-import 'package:colours/colours.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart' as spinkit;
 
 import 'package:radio_ben_zvi_website/globals.dart' as g;
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
@@ -33,7 +32,7 @@ class _LoadingState extends State<Loading>
             body: Center(
                 child: Stack(
                     children: [
-                        SpinKitSpinningLines(
+                        spinkit.SpinKitSpinningLines(
                             color: Color.fromARGB(255, 186, 216, 255),
                             size: 700
                         ),
