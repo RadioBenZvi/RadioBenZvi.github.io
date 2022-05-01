@@ -52,14 +52,16 @@ class PageRouteInformationParser extends RouteInformationParser<PageRoutePath>
     RouteInformation? restoreRouteInformation(PageRoutePath path) 
     {
         if (path.isUnknown) return RouteInformation(location: "/404");
-        if (path.isHomePage) return RouteInformation(location: "/");
-        if (path.isPodcastsPage) return RouteInformation(location: "/podcasts");
+        if (path.isLoadingHomePage) return RouteInformation(location: "/");
+        if (path.isHomePage) return RouteInformation(location: "/home");
+        if (path.isLoadingPodcastsPage) return RouteInformation(location: "/podcasts");
+        if (path.isPodcastsPage) return RouteInformation(location: "/podcast");
         if (path.isPodcastPage) return RouteInformation(
             location: "/podcast/${g.PodcastIdMapInverse[path.id]}"
         );
         if (path.isPodcastEpisodePage) return RouteInformation(
-            location: "/podcast/${g.PodcastIdMapInverse[path.id]}/Ep${path.episodeId}"
+            location: "/podcast/${g.PodcastIdMapInverse[path.id]}/Ep${path.episodeNum}"
         );
-        return null;
+        return RouteInformation(location: "/404");
     }
 }

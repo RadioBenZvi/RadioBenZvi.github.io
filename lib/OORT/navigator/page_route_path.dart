@@ -3,39 +3,39 @@
 class PageRoutePath
 {
     final int id;
-    final int? episodeId;
+    final int episodeNum;
     final bool isUnknown;
 
     PageRoutePath.loading()
         : id = 0,
-        episodeId = null,
+        episodeNum = -1,
         isUnknown = false;
 
     PageRoutePath.home() 
         : id = 1, 
-        episodeId = null,
+        episodeNum = -1,
         isUnknown = false;
 
     PageRoutePath.loading_podcasts() 
         : id = 2, 
-        episodeId = null,
+        episodeNum = -1,
         isUnknown = false;
 
     PageRoutePath.podcasts() 
         : id = 3, 
-        episodeId = null,
+        episodeNum = -1,
         isUnknown = false;
 
     PageRoutePath.podcast(this.id)
-        : episodeId = null,
+        : episodeNum = -1,
         isUnknown = false;
     
-    PageRoutePath.podcast_episode(this.id, this.episodeId)
+    PageRoutePath.podcast_episode(this.id, this.episodeNum)
         : isUnknown = false;
 
     PageRoutePath.unknown() 
         : id = -1,
-        episodeId = null,
+        episodeNum = -1,
         isUnknown = true;
 
     bool get isLoadingHomePage => id == 0;
@@ -43,5 +43,5 @@ class PageRoutePath
     bool get isLoadingPodcastsPage => id == 2;
     bool get isPodcastsPage => id == 3;
     bool get isPodcastPage => id >= 10;
-    bool get isPodcastEpisodePage => id >= 10 && episodeId != null;
+    bool get isPodcastEpisodePage => id >= 10 && episodeNum >= 0;
 }

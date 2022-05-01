@@ -11,7 +11,8 @@ import 'package:radio_ben_zvi_website/widgets/image_placeholder/image_placeholde
 
 class Loading extends RBZPages.Page 
 {
-    const Loading({ Key? key, required ToPage}) : super(key: key, ToPage: ToPage);
+    final Widget Page;
+    const Loading({ Key? key, required ToPage, required this.Page}) : super(key: key, ToPage: ToPage);
 
     @override
     State<Loading> createState() => _LoadingState();
@@ -23,7 +24,7 @@ class _LoadingState extends State<Loading>
     void initState()
     {
         super.initState();
-        LoadPage(ToPage: widget.ToPage, Page: Home);
+        LoadPage(ToPage: widget.ToPage, Page: widget.Page);
     }
 
     @override
