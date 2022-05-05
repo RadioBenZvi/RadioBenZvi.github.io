@@ -6,23 +6,13 @@ class PageRoutePath
     final int episodeNum;
     final bool isUnknown;
 
-    PageRoutePath.loading()
-        : id = 0,
-        episodeNum = -1,
-        isUnknown = false;
-
     PageRoutePath.home() 
-        : id = 1, 
-        episodeNum = -1,
-        isUnknown = false;
-
-    PageRoutePath.loading_podcasts() 
-        : id = 2, 
+        : id = 0, 
         episodeNum = -1,
         isUnknown = false;
 
     PageRoutePath.podcasts() 
-        : id = 3, 
+        : id = 1, 
         episodeNum = -1,
         isUnknown = false;
 
@@ -38,10 +28,8 @@ class PageRoutePath
         episodeNum = -1,
         isUnknown = true;
 
-    bool get isLoadingHomePage => id == 0;
-    bool get isHomePage => id == 1;
-    bool get isLoadingPodcastsPage => id == 2;
-    bool get isPodcastsPage => id == 3;
+    bool get isHomePage => id == 0;
+    bool get isPodcastsPage => id == 1;
     bool get isPodcastPage => id >= 10;
     bool get isPodcastEpisodePage => id >= 10 && episodeNum >= 0;
 }

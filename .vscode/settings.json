@@ -1,45 +1,46 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#fa1b49",
-        "activityBar.activeBorder": "#155e02",
-        "activityBar.background": "#fa1b49",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#155e02",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "sash.hoverBorder": "#fa1b49",
-        "statusBar.background": "#dd0531",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#fa1b49",
-        "statusBarItem.remoteBackground": "#dd0531",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#dd0531",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#dd053199",
-        "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "peacock.color": "#dd0531",
-    "cSpell.words": [
-        "ARGB",
-        "datamodels",
-        "spinkit",
-        "Spreaker",
-        "TPOR"
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#fa1b49",
+    "activityBar.activeBorder": "#155e02",
+    "activityBar.background": "#fa1b49",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#155e02",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#fa1b49",
+    "statusBar.background": "#dd0531",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#fa1b49",
+    "statusBarItem.remoteBackground": "#dd0531",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#dd0531",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#dd053199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#dd0531",
+  "cSpell.words": [
+    "ARGB",
+    "datamodels",
+    "spinkit",
+    "Spreaker",
+    "TPOR"
+  ],
+  "[dart]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.rulers": [
+      80
     ],
-    "[dart]": {
-        "editor.formatOnSave": false,
-        "editor.formatOnType": false,
-        "editor.rulers": [
-            80
-        ],
-        "editor.selectionHighlight": false,
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggestSelection": "first",
-        "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false,
-        "editor.tabSize": 4,
-        "editor.insertSpaces": true,
-        "editor.detectIndentation": false,
-        "editor.suggest.insertMode": "replace"
-    }
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.suggest.insertMode": "replace"
+  },
+  "dart.flutterSdkPath": "C:\\Dev\\sdks\\flutter2.10.5"
 }

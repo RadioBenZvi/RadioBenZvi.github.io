@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:radio_ben_zvi_website/globals.dart' as g;
+import 'package:radio_ben_zvi_website/pages/loading/load_page.dart';
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
 import 'package:radio_ben_zvi_website/pages/home/page.dart' as Home;
 
@@ -45,7 +46,7 @@ class _NavBarLogoState extends State<NavBarLogo>
                         hoverColor: Colors.transparent,
                         shape: StadiumBorder(),
                         child: Image.asset('assets/images/logo/logo.png'),
-                        onPressed: () => widget.ToPage(Home.Home(ToPage: widget.ToPage))
+                        onPressed: () => LoadPage(ToPage: widget.ToPage, Page: Home.Home(ToPage: widget.ToPage))
                     )
                 )
             )

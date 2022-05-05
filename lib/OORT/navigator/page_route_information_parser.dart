@@ -13,19 +13,15 @@ class PageRouteInformationParser extends RouteInformationParser<PageRoutePath>
         final uri = Uri.parse(routeInformation.location.toString());
 
         // Handle '/'
-        if (uri.pathSegments.isEmpty) return PageRoutePath.loading();
-
-        // Handle '/home'
-        if (uri.pathSegments[0] == 'home') return PageRoutePath.home();
+        if (uri.pathSegments.isEmpty) return PageRoutePath.home();
 
         // Handle '/podcasts'
-        if (uri.pathSegments[0] == 'podcasts') return PageRoutePath.loading_podcasts();
+        if (uri.pathSegments[0] == 'podcasts') return PageRoutePath.podcasts();
 
         // Handle '/podcast/:id'
         if (uri.pathSegments[0] == 'podcast')
         {
-            if (uri.pathSegments.length == 1) return PageRoutePath.podcasts();
-            else if (uri.pathSegments.length == 2)
+            if (uri.pathSegments.length == 2)
             {
                 final id = int.tryParse(g.PodcastIdMap[uri.pathSegments[1]]);
 
@@ -42,6 +38,10 @@ class PageRouteInformationParser extends RouteInformationParser<PageRoutePath>
                 if (id != null && episodeId != null) return PageRoutePath.podcast_episode(id, episodeId);
                 else return PageRoutePath.unknown();
             }
+            else
+            {
+                return PageRoutePath.unknown();
+            }
         }
 
         // Handle unknown routes
@@ -52,10 +52,8 @@ class PageRouteInformationParser extends RouteInformationParser<PageRoutePath>
     RouteInformation? restoreRouteInformation(PageRoutePath path) 
     {
         if (path.isUnknown) return RouteInformation(location: "/404");
-        if (path.isLoadingHomePage) return RouteInformation(location: "/");
-        if (path.isHomePage) return RouteInformation(location: "/home");
-        if (path.isLoadingPodcastsPage) return RouteInformation(location: "/podcasts");
-        if (path.isPodcastsPage) return RouteInformation(location: "/podcast");
+        if (path.isHomePage) return RouteInformation(location: "/");
+        if (path.isPodcastsPage) return RouteInformation(location: "/podcasts");
         if (path.isPodcastPage) return RouteInformation(
             location: "/podcast/${g.PodcastIdMapInverse[path.id]}"
         );

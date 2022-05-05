@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:radio_ben_zvi_website/OORT/navigator/page_route_path.dart';
 import 'package:radio_ben_zvi_website/datamodels/podcast.dart' as podcasts_data;
+import 'package:radio_ben_zvi_website/pages/loading/load_page.dart';
 import 'package:radio_ben_zvi_website/pages/podcast/page.dart';
 import 'package:radio_ben_zvi_website/pages/podcasts/page.dart';
 import 'package:radio_ben_zvi_website/pages/unknown/page.dart';
@@ -21,8 +22,8 @@ class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifi
 
     late podcasts_data.Podcast _selectedPodcast;
     late podcasts_data.Episode _selectedEpisode;
-    late               Widget  _currentPage = Loading(ToPage: _handlePageChanged, Page: Home(ToPage: _handlePageChanged));
-    bool                       show404 = false;
+    late               Widget  _currentPage = Home(ToPage: _handlePageChanged);
+    bool                       show404      = false;
 
     @override
     GlobalKey<NavigatorState>? get navigatorKey => GlobalKey<NavigatorState>();
@@ -31,8 +32,6 @@ class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifi
     PageRoutePath? get currentConfiguration 
     {
             if (show404) return PageRoutePath.unknown();
-
-            if (_currentPage == null) return PageRoutePath.loading();
 
             if (_currentPage is Home) return PageRoutePath.home();
 
@@ -52,10 +51,7 @@ class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifi
             pages: [
                 MaterialPage(
                     key: ValueKey("Loading"),
-                    child: Loading(
-                        ToPage: _handlePageChanged,
-                        Page: Home(ToPage: _handlePageChanged)
-                    )
+                    child: Loading(ToPage: _handlePageChanged, Page: Home(ToPage: _handlePageChanged))
                 ),
                 if (show404) MaterialPage(
                     key: ValueKey("UnknownKey"),
@@ -69,7 +65,7 @@ class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifi
             onPopPage: (route, result) {
                 if (route.didPop(result)) return false; 
 
-                _currentPage = Loading(ToPage: _handlePageChanged, Page: Home(ToPage: _handlePageChanged));
+                _currentPage = Home(ToPage: _handlePageChanged);
                 show404 = false;
                 notifyListeners();
 
@@ -87,21 +83,9 @@ class PageRouterDelegate extends RouterDelegate<PageRoutePath> with ChangeNotifi
             return;
         }
 
-        if (path.isLoadingHomePage)
-        {
-            _currentPage = Loading(ToPage: _handlePageChanged, Page: Home(ToPage: _handlePageChanged));
-            return;
-        }
-
         if (path.isHomePage)
         {
             _currentPage = Home(ToPage: _handlePageChanged);
-            return;
-        }
-
-        if (path.isLoadingPodcastsPage)
-        {
-            _currentPage = Loading(ToPage: _handlePageChanged, Page: Podcasts(ToPage: _handlePageChanged));
             return;
         }
 
