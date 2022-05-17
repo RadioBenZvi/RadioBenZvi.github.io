@@ -29,7 +29,7 @@ class _HomeDesktopState extends State<HomeDesktop>
                     Stack(
                         children: [
                             ImageGalleryBackground(),
-                            NavigationBar.Navigation_bar()
+                            //NavigationBar.Navigation_bar()
                         ]
                     )
                 ]
