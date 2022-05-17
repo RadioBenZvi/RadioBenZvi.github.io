@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:radio_ben_zvi_website/globals.dart' as g;
 import 'package:radio_ben_zvi_website/pages/state_page.dart' as RBZPages;
+import 'package:radio_ben_zvi_website/widgets/image_gallery_background/image_gallery_background.dart';
 import 'package:radio_ben_zvi_website/widgets/navigation_bar/init.dart' as NavigationBar;
 
 
@@ -25,7 +26,12 @@ class _HomeDesktopState extends State<HomeDesktop>
             body: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                    NavigationBar.Navigation_bar()
+                    Stack(
+                        children: [
+                            ImageGalleryBackground(),
+                            NavigationBar.Navigation_bar()
+                        ]
+                    )
                 ]
             )
         );

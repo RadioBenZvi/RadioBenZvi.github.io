@@ -1,6 +1,7 @@
 // ignore_for_file: deprecated_member_use, non_constant_identifier_names, prefer_const_constructors, library_prefixes
 
 import 'package:flutter/material.dart';
+import 'package:radio_ben_zvi_website/widgets/image_placeholder/image_placeholder.dart';
 import 'package:vrouter/vrouter.dart';
 
 import 'package:radio_ben_zvi_website/globals.dart' as g;
@@ -44,7 +45,14 @@ class _NavBarLogoState extends State<NavBarLogo>
                         color: Colors.transparent,
                         hoverColor: Colors.transparent,
                         shape: StadiumBorder(),
-                        child: Image.asset('assets/images/logo/logo.png'),
+                        child: ImageWidgetPlaceholder(
+                            image: AssetImage('assets/images/logo/logo.png'),
+                            placeholder: Text("Logo Image"),
+                            width: 100,
+                            height: 100,
+                            fit: BoxFit.cover
+                        )
+                        ,
                         onPressed: () => context.vRouter.to("/loading?page=home")
                     )
                 )

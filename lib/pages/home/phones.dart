@@ -19,19 +19,7 @@ class _HomePhoneState extends State<HomePhone>
     Widget build(BuildContext context) 
     {
         return Scaffold(
-            appBar: AppBar(
-                automaticallyImplyLeading: false,
-                centerTitle: true,
-                toolbarHeight: 100,
-                backgroundColor: Colors.transparent,
-                elevation: 0,
-                title: Image.asset(
-                    "assets/images/logo/logo_small.png",
-                    width: 100,
-                    height: 100,
-                    fit: BoxFit.fill
-                )
-            )
+            
         );
     }
 }
