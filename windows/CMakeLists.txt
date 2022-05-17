@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(oort_studios_website LANGUAGES CXX)
+project(radio_ben_zvi_website LANGUAGES CXX)
 
-set(BINARY_NAME "oort_studios_website")
+set(BINARY_NAME "radio_ben_zvi_website")
 
 cmake_policy(SET CMP0063 NEW)
 

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.oort_studios_website">
+    package="com.example.radio_ben_zvi_website">
    <application
-        android:label="oort_studios_website"
+        android:label="radio_ben_zvi_website"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
