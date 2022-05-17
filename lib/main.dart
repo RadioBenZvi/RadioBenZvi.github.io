@@ -1,40 +1,36 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_init_to_null, unnecessary_null_comparison, prefer_const_declarations, use_key_in_widget_constructors, library_prefixes
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'configure_web.dart' if (dart.library.html) 'configure_web.dart';
 
-import 'package:radio_ben_zvi_website/globals.dart' as g;
-import 'package:radio_ben_zvi_website/OORT/app_data.dart' as data;
-import 'package:radio_ben_zvi_website/OORT/navigator/navigator.dart' as Navigator;
+import 'package:oort_studios_website/home.dart';
+import 'package:oort_studios_website/global.dart' as Global;
 
-void main()
+void main() => runApp(OortWebsite());
+
+class OortWebsite extends StatefulWidget 
 {
-    configureApp();
-    runApp(RadioBenZviWebsite());
-}
-
-class RadioBenZviWebsite extends StatefulWidget 
-{
-    const RadioBenZviWebsite({ Key? key }) : super(key: key);
-
     @override
-    State<RadioBenZviWebsite> createState() => _RadioBenZviWebsiteState();
+    State<OortWebsite> createState() => _OortWebsiteState();
 }
 
-class _RadioBenZviWebsiteState extends State<RadioBenZviWebsite> 
+class _OortWebsiteState extends State<OortWebsite> 
 {
     @override
     Widget build(BuildContext context) 
     {
-        return MaterialApp.router(
-            debugShowCheckedModeBanner: false,
-            title: 'Radio Ben Zvi Website',
-            routerDelegate: Navigator.Delegate,
-            routeInformationParser: Navigator.InformationParser,
-            themeMode: ThemeMode.dark,
-            theme: ThemeData(
-                fontFamily: data.MainFont
-            ),
+        return MaterialApp(
+            title: "Oort Studios | ${Global.NamedCurrentRoute}",
+            home: Navigator(
+                onPopPage: (route, result) 
+                {
+                    if (!route.didPop(result)) return false;
+                    return true;
+                },
+                pages: [
+                    MaterialPage(child: Home())
+                ]   
+            )
         );
+        
     }
 }

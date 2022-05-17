@@ -1,4 +1,4 @@
-from os import system
+from os import system, getcwd
 
-system("flutter build web --web-renderer=html")
-print("built the Radio Ben Zvi website")
+system("flutter build web")
+print("Finished building the OortStudios website")
