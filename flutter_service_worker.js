@@ -13,14 +13,15 @@ const RESOURCES = {
 "assets/assets/images/logo/logo_small.png": "12a1bf099078090f44f542995f888b3d",
 "assets/assets/images/logo/logo_very_small.png": "4aa1b54f85b83a05aa085937f1c54fc1",
 "assets/FontManifest.json": "075fde73ce9eb6bf27776c3ecc77bfe9",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "d13015df287b0a047d014ac86ee6b2c3",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "3209c2f9ca70d58f289dcded4420b342",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.ico": "35054abcd7d2ab67018c0c698cc2d212",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "icons/android-icon-144x144.png": "344abc6c0a20cebf71f46730ace1e7cd",
 "icons/android-icon-192x192.png": "657913b151ca6b7b835c4934361626e5",
 "icons/android-icon-36x36.png": "93438069c888a9ab955feaa7a33e97fd",
@@ -46,18 +47,17 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "ff9f7efb4e036eece58263da8cb4b398",
 "icons/ms-icon-310x310.png": "4011ddc7a46d3b9132bf34bcbe943bc9",
 "icons/ms-icon-70x70.png": "85fb0cf4469bfcccc5e1851aafa2b44d",
-"index.html": "f446fe0c47ff4174587cb75668c2244f",
-"/": "f446fe0c47ff4174587cb75668c2244f",
-"main.dart.js": "98e91ad3fae738a8636e42110ca77112",
-"manifest.json": "90317c10a264667b5d40b56133061551",
+"index.html": "e55177e21315c025f359b53ec7ee4919",
+"/": "e55177e21315c025f359b53ec7ee4919",
+"main.dart.js": "ed9fac05eb9c6c14dfca10179f97976d",
+"manifest.json": "9d63757af368f9cf8511459e042310e5",
 "version.json": "da94e950d985f6f6a53ca17dbb7e35b1"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
