@@ -1,11 +1,14 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, avoid_init_to_null, unnecessary_null_comparison, prefer_const_declarations, use_key_in_widget_constructors, library_prefixes
 
 import 'package:flutter/material.dart';
-import 'package:radio_ben_zvi_website/pages/loading/loading.dart';
 import 'package:vrouter/vrouter.dart';
 
 import 'package:radio_ben_zvi_website/pages/home/page.dart';
 import 'package:radio_ben_zvi_website/pages/unknown/page.dart';
+import 'package:radio_ben_zvi_website/pages/loading/loading.dart';
+import 'package:radio_ben_zvi_website/pages/podcast/episode/page.dart';
+import 'package:radio_ben_zvi_website/pages/podcast/page.dart';
+import 'package:radio_ben_zvi_website/pages/podcasts/page.dart';
 
 void main()
 {
@@ -44,28 +47,28 @@ class _RadioBenZviWebsiteState extends State<RadioBenZviWebsite>
                 //    path: "/about",
                 //    widget: widget
                 //),
-                //VWidget(
-                //    path: "/podcasts",
-                //    widget: widget
-                //),
-                //VPath(
-                //    path: "/podcast",
-                //    stackedRoutes: [
-                //        VWidget(
-                //            path: "/podcast/:id",
-                //            name: "podcast",
-                //            widget: widget,
-                //
-                //            stackedRoutes: [
-                //                VWidget(
-                //                    path: ":episode_id",
-                //                    name: "podcast_episode",
-                //                    widget: widget
-                //                )
-                //            ]
-                //        )
-                //    ]
-                //),
+                VWidget(
+                    path: "/podcasts",
+                    widget: Podcasts()
+                ),
+                VPath(
+                    path: "/podcast",
+                    stackedRoutes: [
+                        VWidget(
+                            path: "/podcast/:id",
+                            name: "podcast",
+                            widget: Podcast(),
+                
+                            stackedRoutes: [
+                                VWidget(
+                                    path: ":episode_id",
+                                    name: "podcast_episode",
+                                    widget: Episode()
+                                )
+                            ]
+                        )
+                    ]
+                ),
                 //VWidget(
                 //    path: "/contact",
                 //    widget: widget

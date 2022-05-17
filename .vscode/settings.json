@@ -22,9 +22,11 @@
   "cSpell.words": [
     "ARGB",
     "datamodels",
+    "Redirector",
     "spinkit",
     "Spreaker",
-    "TPOR"
+    "TPOR",
+    "vrouter"
   ],
   "[dart]": {
     "editor.formatOnSave": false,
