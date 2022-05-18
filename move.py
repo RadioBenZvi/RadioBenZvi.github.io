@@ -19,6 +19,10 @@ for f in filelist:
     system(f"del {cwd}\\RadioBenZviWebsiteBuild\\{f}")
 
 
+#copy files from .\RadioBenZviWebsite\assets\Scripts\PAWS\ to .\RadioBenZviWebsiteBuild\assets\assets\Scripts\PAWS\
+print("Copying files...")
+copy_tree(cwd + "\\RadioBenZviWebsite\\assets\\Scripts\\PAWS\\", cwd + "\\RadioBenZviWebsiteBuild\\assets\\Scripts\\PAWS\\")
+
 #move the files from .\RadioBenZviWebsite\build\web\ to .\RadioBenZviWebsiteBuild\
 print("Copying new files...")
 copy_path = cwd + "\\RadioBenZviWebsite\\build\\web\\"
