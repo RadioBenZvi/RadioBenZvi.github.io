@@ -45,6 +45,7 @@ dependencies:
   provider: ^4.3.3
   url_strategy: ^0.2.0
   vrouter: ^1.2.1
+  infinite_listview: ^1.1.0
 
 dev_dependencies:
   flutter_test:

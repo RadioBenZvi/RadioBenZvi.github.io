@@ -12,8 +12,17 @@ class NavigationBarDesktop extends RBZPages.Page
     @override
     Widget build(BuildContext context) 
     {
-        return SizedBox(
+        return Container(
             height: 100,
+            // TODO: #1 ADD IMAGE
+            //decoration: BoxDecoration(
+            //    backgroundBlendMode: BlendMode.screen,
+            //    color: Colors.black.withOpacity(0.5),
+            //    image: DecorationImage(
+            //        image: AssetImage('assets/images/navigation_bar_background.png'),
+            //        fit: BoxFit.cover
+            //    )
+            //),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

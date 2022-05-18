@@ -1,6 +1,7 @@
-// ignore_for_file: prefer_const_constructors, deprecated_member_use
+// ignore_for_file: prefer_const_constructors, deprecated_member_use, prefer_final_fields
 
 import 'package:flutter/material.dart';
+import 'package:infinite_listview/infinite_listview.dart';
 import 'package:vrouter/vrouter.dart';
 import 'dart:async';
 
@@ -21,6 +22,17 @@ class _ImageGalleryBackgroundState extends State<ImageGalleryBackground>
     int imageMax   = g.BGgalleryImages.length;
     Timer? timer;
 
+    //ScrollController _scrollController = ScrollController();
+    //
+    //_scrollToBottom()
+    //{
+    //    _scrollController.animateTo(
+    //        _scrollController.position.maxScrollExtent,
+    //        duration: Duration(milliseconds: 5),
+    //        curve: Curves.easeOut
+    //    );
+    //}
+
     @override
     void initState() 
     {
@@ -39,7 +51,7 @@ class _ImageGalleryBackgroundState extends State<ImageGalleryBackground>
         return FlatButton(
             child: Container(
                 width: double.infinity,
-                height: 500,
+                height: 600,
                 decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage(g.BGgalleryImages[imageIndex]),
@@ -53,5 +65,35 @@ class _ImageGalleryBackgroundState extends State<ImageGalleryBackground>
                 context.vRouter.to(g.BGgalleryImagesPaths[imageIndex]);
             }
         );
+        //return Container(
+        //    width: double.infinity,
+        //    height: 500,
+        //    child: ListView.builder(
+        //        itemBuilder: (context, index) 
+        //        {
+        //            return FlatButton(
+        //                child: Container(
+        //                    width: double.infinity,
+        //                    height: 500,
+        //                    decoration: BoxDecoration(
+        //                        image: DecorationImage(
+        //                            image: AssetImage(g.BGgalleryImages[index]),
+        //                            alignment: Alignment.center,
+        //                            fit: BoxFit.cover
+        //                        )
+        //                    )
+        //                ),
+        //                onPressed: () 
+        //                {
+        //                    context.vRouter.to(g.BGgalleryImagesPaths[index]);
+        //                }
+        //            );
+        //        },
+        //        itemCount: imageMax,
+        //        scrollDirection: Axis.horizontal,
+        //        //itemExtent: double.infinity,
+        //        //controller: _scrollController
+        //    )
+        //);
     }
 }
