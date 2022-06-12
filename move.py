@@ -87,5 +87,14 @@ with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS5.html", "w") as f:
     f.write("</head>\n")
     f.write("</html>\n")
 
+with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS6.html", "w") as f:
+    f.write("<!DOCTYPE html>\n")
+    f.write("<html>\n")
+    f.write("<head>\n")
+    f.write("<title> Radio Ben Zvi </title>\n")
+    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/6\" />\n")
+    f.write("</head>\n")
+    f.write("</html>\n")
+
 #finished processing
 print("Finished!")
