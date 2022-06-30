@@ -40,6 +40,17 @@ with open(cwd + "\\RadioBenZviWebsiteBuild\\home.html", "w") as f:
     f.write("</head>\n")
     f.write("</html>\n")
 
+# create an html file that called 404 and redirect to "RadioBenZvi.github.io/#/404"
+print("Creating 404 file...")
+with open(cwd + "\\RadioBenZviWebsiteBuild\\404.html", "w") as f:
+    f.write("<!DOCTYPE html>\n")
+    f.write("<html>\n")
+    f.write("<head>\n")
+    f.write("<title> Radio Ben Zvi </title>\n")
+    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/404\" />\n")
+    f.write("</head>\n")
+    f.write("</html>\n")
+
 #create an html file that called PAWS1 and redirect to "RadioBenZvi.github.io/#/Scripts/PAWS/1"
 print("Creating redirect file...")
 with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS1.html", "w") as f:
