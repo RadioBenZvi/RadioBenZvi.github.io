@@ -29,83 +29,83 @@ copy_path = cwd + "\\RadioBenZviWebsite\\build\\web\\"
 copy_dest = cwd + "\\RadioBenZviWebsiteBuild"
 copy_tree(copy_path, copy_dest)
 
-#create an html file that called home and redirect to "RadioBenZvi.github.io/#/home"
-print("Creating redirect file...")
-with open(cwd + "\\RadioBenZviWebsiteBuild\\home.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/home\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-# create an html file that called 404 and redirect to "RadioBenZvi.github.io/#/404"
-print("Creating 404 file...")
-with open(cwd + "\\RadioBenZviWebsiteBuild\\404.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/404\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-#create an html file that called PAWS1 and redirect to "RadioBenZvi.github.io/#/Scripts/PAWS/1"
-print("Creating redirect file...")
-with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS1.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/1\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS2.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/2\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS3.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/3\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS4.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/4\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS5.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/5\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
-
-with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS6.html", "w") as f:
-    f.write("<!DOCTYPE html>\n")
-    f.write("<html>\n")
-    f.write("<head>\n")
-    f.write("<title> Radio Ben Zvi </title>\n")
-    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/6\" />\n")
-    f.write("</head>\n")
-    f.write("</html>\n")
+##create an html file that called home and redirect to "RadioBenZvi.github.io/#/home"
+#print("Creating redirect file...")
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\home.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/home\" />\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+## create an html file that called 404 and redirect to "RadioBenZvi.github.io/#/404"
+#print("Creating 404 file...")
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\404.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/404\" />\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+##create an html file that called PAWS1 and redirect to "RadioBenZvi.github.io/#/Scripts/PAWS/1"
+#print("Creating redirect file...")
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS1.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/1\" #/>\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS2.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/2\" #/>\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS3.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/3\" #/>\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS4.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/4\" #/>\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS5.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/5\" #/>\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
+#
+#with open(cwd + "\\RadioBenZviWebsiteBuild\\PAWS6.html", "w") as f:
+#    f.write("<!DOCTYPE html>\n")
+#    f.write("<html>\n")
+#    f.write("<head>\n")
+#    f.write("<title> Radio Ben Zvi </title>\n")
+#    f.write("<meta http-equiv=\"refresh\" content=\"0; url=https://RadioBenZvi.github.io/#/Scripts/PAWS/6\" #/>\n")
+#    f.write("</head>\n")
+#    f.write("</html>\n")
 
 #finished processing
 print("Finished!")
