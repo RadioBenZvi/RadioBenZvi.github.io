@@ -67,8 +67,8 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "ff9f7efb4e036eece58263da8cb4b398",
 "icons/ms-icon-310x310.png": "4011ddc7a46d3b9132bf34bcbe943bc9",
 "icons/ms-icon-70x70.png": "85fb0cf4469bfcccc5e1851aafa2b44d",
-"index.html": "6d9dbaf4d50aac48afbe545f3ce4162c",
-"/": "6d9dbaf4d50aac48afbe545f3ce4162c",
+"index.html": "685cc1d5b8875d20ef2693c69f780fce",
+"/": "685cc1d5b8875d20ef2693c69f780fce",
 "main.dart.js": "6210aec694c9693fb7908cdce8792eeb",
 "manifest.json": "9d63757af368f9cf8511459e042310e5",
 "move.py": "abdd39a067cf4ddcde4f305610f328b8",
@@ -78,22 +78,11 @@ const RESOURCES = {
 "PAWS4.html": "3d23feb92d35c695ef76c6db42fb2f7d",
 "PAWS5.html": "390213c977ea00fdaf04d1e5b4624b68",
 "PAWS6.html": "ba4baeaed00360a8791e7666bb9cd3a1",
-"podcast/PAWS/audio/season1/1.mpg": "d5a8f93f583cd30bce430890c280af20",
-"podcast/PAWS/audio/season1/2.mpg": "bea9bd85c61b71df5044d83ebd99492e",
-"podcast/PAWS/audio/season1/3.mpg": "7feee65a78a867efc7e4c439b6c091a1",
-"podcast/PAWS/audio/season1/4.mpg": "f56aff123a6ba79a0e5d2acf7465cef9",
-"podcast/PAWS/audio/season1/5.mpg": "32e1889db7b840bec42e826e2c66ff37",
-"podcast/PAWS/audio/season1/6.mpg": "c6e99cee7c63ac0ccd37ca5cb5002133",
 "podcast/PAWS/feed.html": "c8792e0dcc2e4a5b9443473823f06b40",
-"podcast/PAWS/feed.rss": "fcb93faac37a278bac40fe9e85998657",
-"podcast/PAWS/images/episodes/season1/buses/logo.jpg": "2a7e559683884f9b5c789c438aa3343b",
-"podcast/PAWS/images/episodes/season1/flowers/logo.jpg": "f4dc944d76bf580324e59131c3dbbba6",
-"podcast/PAWS/images/episodes/season1/light/logo.jpg": "2dc1340d2039b286c2732c6c47dd4f76",
-"podcast/PAWS/images/episodes/season1/london/logo.jpg": "924b0e8c58edf55b30ddb5ea10cd88c2",
-"podcast/PAWS/images/episodes/season1/mazot1/logo.jpg": "1982d3922c10bb757a68d3bd8b375eb3",
-"podcast/PAWS/images/episodes/season1/mazot2/logo.jpg": "19ca8fe14b48ca23a613084923fb7e18",
-"podcast/PAWS/images/logo.jpg": "933295ee69dbfcce48abea3996111044",
-"version.json": "da94e950d985f6f6a53ca17dbb7e35b1"
+"podcast/PAWS/feed.rss": "e472b2ed16fd6e3becad4eba1c871069",
+"README.md": "79ebba1e154dd1d72ba7fc7594312c10",
+"version.json": "da94e950d985f6f6a53ca17dbb7e35b1",
+"_config.yml": "9aace4c7e07d905d75ca0e5386a1355b"
 };
 
 // The application shell files that are downloaded before a service worker can
