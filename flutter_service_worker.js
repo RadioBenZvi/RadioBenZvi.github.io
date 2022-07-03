@@ -3,8 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "404.html": "b53bbbfa8de95c70acce012ad5661015",
-"assets/AssetManifest.json": "5fc9a77eb462d939b7d99da0da56ae8f",
+  "assets/AssetManifest.json": "5fc9a77eb462d939b7d99da0da56ae8f",
 "assets/assets/fonts/DorianCLM-Book.ttf": "bb7dfe9bdb231df99b884d9ef5f87b87",
 "assets/assets/fonts/DorianCLM-BookItalic.ttf": "8ebd4604a3580cccf1c58b8fc5855802",
 "assets/assets/fonts/JournalCLM-Light.otf": "db6f6c52c682bb5335c708a11e89d979",
@@ -41,7 +40,6 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.ico": "35054abcd7d2ab67018c0c698cc2d212",
 "flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
-"home.html": "ec20d9a857377e45b177fff527c49b03",
 "icons/android-icon-144x144.png": "344abc6c0a20cebf71f46730ace1e7cd",
 "icons/android-icon-192x192.png": "657913b151ca6b7b835c4934361626e5",
 "icons/android-icon-36x36.png": "93438069c888a9ab955feaa7a33e97fd",
@@ -67,9 +65,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "ff9f7efb4e036eece58263da8cb4b398",
 "icons/ms-icon-310x310.png": "4011ddc7a46d3b9132bf34bcbe943bc9",
 "icons/ms-icon-70x70.png": "85fb0cf4469bfcccc5e1851aafa2b44d",
-"index.html": "27bb92a3025070b7340ae634f77138e6",
-"/": "27bb92a3025070b7340ae634f77138e6",
-"main.dart.js": "6210aec694c9693fb7908cdce8792eeb",
+"index.html": "7903b8d55aa672be8c8be2321ec52559",
+"/": "7903b8d55aa672be8c8be2321ec52559",
+"main.dart.js": "df362c8372548bc6ffd5162e243aa059",
 "manifest.json": "9d63757af368f9cf8511459e042310e5",
 "move.py": "abdd39a067cf4ddcde4f305610f328b8",
 "PAWS1.html": "d2c8c3916d59f25ed9f93efa107bdb81",
