@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://RadioBenZvi.github.io/" target="_blank" rel="noopener">
+  <a href="https://RadioBenZvi.github.io/" target="_blank">
  <img height=300px src="https://raw.githubusercontent.com/RadioBenZvi/RadioBenZvi.github.io/main/assets/assets/images/home/banner.jpg" alt="WebsiteLogo"></a>
 </p>
 
