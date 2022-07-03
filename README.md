@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img height=500px src="https://raw.githubusercontent.com/RadioBenZvi/RadioBenZvi.github.io/main/assets/assets/images/home/banner.jpg" alt="WebsiteLogo"></a>
+ <img height=300px src="https://raw.githubusercontent.com/RadioBenZvi/RadioBenZvi.github.io/main/assets/assets/images/home/banner.jpg" alt="WebsiteLogo"></a>
 </p>
 
 <h3 align="center">Radio Ben Zvi Website</h3>
