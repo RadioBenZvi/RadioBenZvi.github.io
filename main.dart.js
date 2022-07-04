@@ -54961,7 +54961,7 @@ A.uv.prototype={
 ae(){return new A.IP(B.l)}}
 A.IP.prototype={
 E(a,b){var s=null,r=A.bY(0,0,0),q=t.C
-return new A.pi(A.b([A.abo("/","/loading?page=home"),A.fN("loading","/loading",B.an,new A.tu(s)),A.fN("home","/home",B.an,new A.rS(s)),A.fN("podcasts","/podcasts",B.an,new A.CP(s)),A.a7i(B.aR,!1,"/podcast",A.b([A.fN("podcast","/podcast/:id",A.b([A.fN("podcast_episode",":episode_id",B.an,new A.Au(s))],q),new A.CO(s))],q)),A.abo("/podcast/","/loading?page=podcasts"),A.fN(s,"/Scripts/PAWS/1",B.an,A.u3(1)),A.fN(s,"/Scripts/PAWS/2",B.an,A.u3(2)),A.fN(s,"/Scripts/PAWS/3",B.an,A.u3(3)),A.fN(s,"/Scripts/PAWS/4",B.an,A.u3(4)),A.fN(s,"/Scripts/PAWS/5",B.an,A.u3(5)),A.fN(s,"/Scripts/PAWS/6",B.an,A.u3(6)),A.fN("unknown","/unknown",B.an,new A.F4(s))],q),r,B.to,"/","Radio Ben Zvi - \u05e8\u05d3\u05d9\u05d5 \u05d1\u05df \u05e6\u05d1\u05d9",!1,$,s)}}
+return new A.pi(A.b([A.abo("/","/loading?page=home"),A.fN("loading","/loading",B.an,new A.tu(s)),A.fN("home","/home",B.an,new A.rS(s)),A.fN("podcasts","/podcasts",B.an,new A.CP(s)),A.a7i(B.aR,!1,"/podcast",A.b([A.fN("podcast","/podcast/:id",A.b([A.fN("podcast_episode",":episode_id",B.an,new A.Au(s))],q),new A.CO(s))],q)),A.abo("/podcast/","/loading?page=podcasts"),A.fN(s,"/Scripts/PAWS/1",B.an,A.u3(1)),A.fN(s,"/Scripts/PAWS/2",B.an,A.u3(2)),A.fN(s,"/Scripts/PAWS/3",B.an,A.u3(3)),A.fN(s,"/Scripts/PAWS/4",B.an,A.u3(4)),A.fN(s,"/Scripts/PAWS/5",B.an,A.u3(5)),A.fN(s,"/Scripts/PAWS/6",B.an,A.u3(6)),A.fN("unknown","/404page",B.an,new A.F4(s))],q),r,B.to,"/","Radio Ben Zvi - \u05e8\u05d3\u05d9\u05d5 \u05d1\u05df \u05e6\u05d1\u05d9",!1,$,s)}}
 A.rT.prototype={
 ae(){return new A.He(B.l)}}
 A.He.prototype={
