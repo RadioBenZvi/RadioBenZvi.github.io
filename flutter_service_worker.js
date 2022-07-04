@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "5fc9a77eb462d939b7d99da0da56ae8f",
+  "404.html": "9b0bafd09daf72271274e858e5c88a4f",
+"assets/AssetManifest.json": "5fc9a77eb462d939b7d99da0da56ae8f",
 "assets/assets/fonts/DorianCLM-Book.ttf": "bb7dfe9bdb231df99b884d9ef5f87b87",
 "assets/assets/fonts/DorianCLM-BookItalic.ttf": "8ebd4604a3580cccf1c58b8fc5855802",
 "assets/assets/fonts/JournalCLM-Light.otf": "db6f6c52c682bb5335c708a11e89d979",
@@ -65,9 +66,9 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "ff9f7efb4e036eece58263da8cb4b398",
 "icons/ms-icon-310x310.png": "4011ddc7a46d3b9132bf34bcbe943bc9",
 "icons/ms-icon-70x70.png": "85fb0cf4469bfcccc5e1851aafa2b44d",
-"index.html": "7903b8d55aa672be8c8be2321ec52559",
-"/": "7903b8d55aa672be8c8be2321ec52559",
-"main.dart.js": "df362c8372548bc6ffd5162e243aa059",
+"index.html": "74519d356115e752f38e41ee5b2e0112",
+"/": "74519d356115e752f38e41ee5b2e0112",
+"main.dart.js": "37eda6bfa91ea6ed27ab905211ac1f5a",
 "manifest.json": "9d63757af368f9cf8511459e042310e5",
 "move.py": "abdd39a067cf4ddcde4f305610f328b8",
 "PAWS1.html": "d2c8c3916d59f25ed9f93efa107bdb81",

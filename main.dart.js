@@ -54960,8 +54960,8 @@ $S:329}
 A.uv.prototype={
 ae(){return new A.IP(B.l)}}
 A.IP.prototype={
-E(a,b){var s=null,r=A.bY(0,0,0),q=t.C
-return new A.pi(A.b([A.a7j("/","/loading?page=home"),A.fN("loading","/loading",B.an,new A.tu(s)),A.fN("home","/home",B.an,new A.rS(s)),A.fN("podcasts","/podcasts",B.an,new A.CP(s)),A.a7i(B.aR,!1,"/podcast",A.b([A.fN("podcast","/podcast/:id",A.b([A.fN("podcast_episode",":episode_id",B.an,new A.Au(s))],q),new A.CO(s))],q)),A.a7j("/podcast/","/loading?page=podcasts"),A.fN(s,"/Scripts/PAWS/1",B.an,A.u3(1)),A.fN(s,"/Scripts/PAWS/2",B.an,A.u3(2)),A.fN(s,"/Scripts/PAWS/3",B.an,A.u3(3)),A.fN(s,"/Scripts/PAWS/4",B.an,A.u3(4)),A.fN(s,"/Scripts/PAWS/5",B.an,A.u3(5)),A.fN(s,"/Scripts/PAWS/6",B.an,A.u3(6)),A.fN("unknown","/404",B.an,new A.F4(s)),A.a7j("*","/404")],q),r,B.to,"/","Radio Ben Zvi",!1,$,s)}}
+E(a,b){var s=null,r="/unknown",q=A.bY(0,0,0),p=t.C
+return new A.pi(A.b([A.a7j("/","/loading?page=home"),A.fN("loading","/loading",B.an,new A.tu(s)),A.fN("home","/home",B.an,new A.rS(s)),A.fN("podcasts","/podcasts",B.an,new A.CP(s)),A.a7i(B.aR,!1,"/podcast",A.b([A.fN("podcast","/podcast/:id",A.b([A.fN("podcast_episode",":episode_id",B.an,new A.Au(s))],p),new A.CO(s))],p)),A.a7j("/podcast/","/loading?page=podcasts"),A.fN(s,"/Scripts/PAWS/1",B.an,A.u3(1)),A.fN(s,"/Scripts/PAWS/2",B.an,A.u3(2)),A.fN(s,"/Scripts/PAWS/3",B.an,A.u3(3)),A.fN(s,"/Scripts/PAWS/4",B.an,A.u3(4)),A.fN(s,"/Scripts/PAWS/5",B.an,A.u3(5)),A.fN(s,"/Scripts/PAWS/6",B.an,A.u3(6)),A.fN("unknown",r,B.an,new A.F4(s)),A.a7j("*",r)],p),q,B.to,"/","Radio Ben Zvi",!1,$,s)}}
 A.rT.prototype={
 ae(){return new A.He(B.l)}}
 A.He.prototype={
