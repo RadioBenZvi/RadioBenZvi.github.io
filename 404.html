@@ -3,11 +3,6 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Radio Ben Zvi - רדיו בן צבי</title>
-<script type="text/javascript">
-  document.getElementById("myButton").onclick = function () {
-      location.href = "https://RadioBenZvi.github.io/";
-  };
-</script>
 <style>
 body, html {
   height: 100%;
@@ -38,8 +33,14 @@ font-size:0;
 <body>
 
 <div class="bg">
-  <button id="myButton"></button>
+  <button id="myButton">button</button>
 </div>
+
+<script type="text/javascript">
+  document.getElementById("myButton").onclick = function () {
+      location.href = "https://RadioBenZvi.github.io/loading?page=home";
+  };
+</script>
 
 </body>
 </html>
