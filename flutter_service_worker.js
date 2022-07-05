@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "404.html": "a3ae4b0d3d7136b0a593c810f813550e",
+  "404.html": "526ba65ead4787f8d2bd657bb93477d5",
 "404.jpg": "0d93dd411e3bc82dbae4ffc419a317cb",
 "assets/AssetManifest.json": "e3fd2eb61c6baad82b5e250031971e0a",
 "assets/assets/fonts/DorianCLM-Book.ttf": "bb7dfe9bdb231df99b884d9ef5f87b87",
@@ -67,8 +67,8 @@ const RESOURCES = {
 "icons/ms-icon-150x150.png": "ff9f7efb4e036eece58263da8cb4b398",
 "icons/ms-icon-310x310.png": "4011ddc7a46d3b9132bf34bcbe943bc9",
 "icons/ms-icon-70x70.png": "85fb0cf4469bfcccc5e1851aafa2b44d",
-"index.html": "57897d562e930796f3d48756452c559f",
-"/": "57897d562e930796f3d48756452c559f",
+"index.html": "e2d16351c8b9104c7dcaa354e69f67dd",
+"/": "e2d16351c8b9104c7dcaa354e69f67dd",
 "main.dart.js": "5c3f78bf6ab166dcbe65d509e82a5404",
 "manifest.json": "9d63757af368f9cf8511459e042310e5",
 "move.py": "abdd39a067cf4ddcde4f305610f328b8",
