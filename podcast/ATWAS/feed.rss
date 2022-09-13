@@ -11,7 +11,7 @@
         <category>Arts</category>
         <copyright>Copyright Radio Ben Zvi</copyright>
         <image>
-            <url>https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.jpg</url>
+            <url>https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.png</url>
             <title>שיחה ללא נושא</title>
             <link>https://RadioBenZvi.github.io/podcast/ATWAS</link>
         </image>
@@ -21,7 +21,7 @@
             <itunes:name>Radio Ben Zvi</itunes:name>
             <itunes:email>shakedkod@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.jpg"/>
+        <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.png"/>
         <itunes:subtitle>על החיים וכל השאר עם שקד טל יואב ולפעמים גם עוד אנשים.</itunes:subtitle>
         <itunes:summary>
             <![CDATA[על החיים וכל השאר עם שקד טל יואב ולפעמים גם עוד אנשים.]]>
@@ -69,7 +69,7 @@
             <itunes:duration>4127</itunes:duration>
             <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.jpg"/>
+            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
