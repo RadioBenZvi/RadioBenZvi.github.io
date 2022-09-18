@@ -21,7 +21,7 @@ def theJob():
 sched.add_job(
     theJob,
     'date',
-    run_date = datetime(2022, 9, 18, 22, 16, 0) #datetime(2022, 9, 20, 13, 0, 0)
+    run_date = datetime(2022, 9, 18, 22, 17, 0) #datetime(2022, 9, 20, 13, 0, 0)
 )
 
 # Starts the Scheduled jobs
