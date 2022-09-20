@@ -77,5 +77,53 @@
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
+        <item>
+            <title>גרמנית, ג'אווה ועוד שירים</title>
+            <link>https://RadioBenZvi.github.io/podcast/ATWAS/2</link>
+            <description>
+                <![CDATA[הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.
+בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד
+האזנה נעימה!
+
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </description>
+            <pubDate>Tue, 20 Sep 2022 12:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/audio/2.mp3" length="99038918" type="audio/mpeg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה. בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד האזנה נעימה! </itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[הפרק השני של שיחה ללא נושא עם שקד, טל, אלון, ושירה.
+בפרק זה הם מדברים על שפות מוזרות, על שירים, טניס ועוד
+האזנה נעימה!
+
+<strong>-=קישורים=-</strong>
+אתר - https://RadioBenZvi.github.io/
+יוטיוב - 
+הפודקאסט בספוטיפי - https://open.spotify.com/show/00AVovDZ91dF3ccD2Tmhs8?si=d78a5bc5e0434392
+הפודקאסט באפל מיוזיק - 
+כל הפרקים ביוטיוב - 
+
+<strong>-=מוזיקה=-</strong>
+* Howard Harper-Barnes - We All Need Adventures(The Center)
+
+<strong>© Radio Ben Zvi 2022</strong>]]>
+            </itunes:summary>
+            <itunes:duration>3742</itunes:duration>
+            <itunes:keywords>ועוד,לימודים,מבחנים,מים,רדיובןצבי,שיחה,שיחהללאנושא,שירים</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/ATWAS/images/logo.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
     </channel>
 </rss>
