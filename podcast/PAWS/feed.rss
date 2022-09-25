@@ -37,9 +37,39 @@
         <googleplay:explicit>No</googleplay:explicit>
         <item>
             <title>לונדון שהיא לא לונדון</title>
+            <link>https://RadioBenZvi.github.io/podcast/PAWS/oded</link>
+            <description>
+                <![CDATA[ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 51.<br />_____________________________________________<br /><br />כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+            </description>
+            <pubDate>Thu, 1 Sep 2022 10:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/audio/oded.mp3" length="2353000" type="audio/mpg"/>
+            <itunes:author>Radio Ben Zvi</itunes:author>
+            <itunes:subtitle>ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 51&#13;
+                _____________________________________________&#13;
+                &#13;
+                כל הזכויות שמורות לרדיו בן צבי - 2022</itunes:subtitle>
+            <itunes:summary>
+                <![CDATA[ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 51.<br />_____________________________________________<br /><br />כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+            </itunes:summary>
+            <itunes:duration>2353</itunes:duration>
+            <itunes:keywords>היסטוריה,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/oded.png"/>
+            <itunes:season>1</itunes:season>
+            <itunes:episodeType>bonus</itunes:episodeType>
+            <googleplay:author>Radio Ben Zvi</googleplay:author>
+            <googleplay:description>ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 51&#13;
+_____________________________________________&#13;
+&#13;
+כל הזכויות שמורות לרדיו בן צבי - 2022</googleplay:description>
+            <googleplay:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/oded.png"/>
+            <googleplay:explicit>No</googleplay:explicit>
+        </item>
+        <item>
+            <title>לונדון שהיא לא לונדון</title>
             <link>https://RadioBenZvi.github.io/podcast/PAWS/1-6</link>
             <description>
-                <![CDATA[בפרק זה אני דיברתי על העיר שבתוך העיר שבמדינה שבתוך מדינה,<br />יותר לא אגלה,<br />האזנה נעימה,<br />שקד<br />_____________________________________________<br />תודה רבה לכל מי שעזר לי עם כל הפרקים של העונה הזאת<br />הפרק הבא היה הפרק הראשון של העונה השניה והוא יגיע בערך שבוע לאחר החופש הגדול<br />ועד אז,<br />תודה רבה לכולכם שהאזנתם!<br />_____________________________________________<br /><br />-=קרדיטים=-<br />נוצר על ידי שקד<br />פורסם על ידי רדיו בן צבי<br />הלוגו נוצר </a>בבלנדר(על ידי שקד)<a href="https://blender.org" rel="noopener"><br /><br />-=מוזיקה=-<br />פס הקול של הפרק נוצר על ידי שקד, ויגיע בקרוב לכל הפלטפורמות<br />פס הקול - [יעלה בקרוב]<br />בנוסף לפס הקול, הנה הקרדיטים ליוצרי מוזיקות שונות שגם בהן השתמשתי בפרק זה:<br />Luis Humanoide - Waltz of the Souls <br />SilentCrafter & OddKid - Hope<br />Luis Humanoide - Evil Energy Vortex<br />Alexander Nakarada - The Vikings<br />Vindsvept - Wayfarer's Journey<br />Approaching Nirvana - Keystone<br /><br />_____________________________________________<br /><br />כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
+                <![CDATA[ראיון של קבוצת המשצים עם עודד נגבי, חבלן בחטיבה 51.<br />_____________________________________________<br /><br />כל הזכויות שמורות לרדיו בן צבי ולשקד - 2022]]>
             </description>
             <pubDate>Mon, 20 Jun 2022 10:00:03 +0000</pubDate>
             <enclosure url="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/audio/season1/6.mpg" length="13578498" type="audio/mpg"/>
