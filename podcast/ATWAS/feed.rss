@@ -30,7 +30,7 @@
         <itunes:explicit>clean</itunes:explicit>
         <itunes:type>episodic</itunes:type>
         <!-- Episode 3 -->
-        <item>
+        <!--<item>
             <title>מעולמות שונים</title>
             <link>https://RadioBenZvi.github.io/podcast/ATWAS/3</link>
             <description>
@@ -93,6 +93,7 @@
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
+    -->
         <!-- Episode 2 -->
         <item>
             <title>גרמנית, ג'אווה ועוד שירים</title>
