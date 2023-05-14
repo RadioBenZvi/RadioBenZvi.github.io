@@ -54,7 +54,6 @@
             <itunes:duration>2353</itunes:duration>
             <itunes:keywords>היסטוריה,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/oded.png"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>bonus</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
@@ -91,7 +90,6 @@ _____________________________________________&#13;
             <itunes:duration>849</itunes:duration>
             <itunes:keywords>היסטוריה,העיר_של_לונדון,לונדון,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/season1/london/logo.jpg"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
@@ -156,8 +154,7 @@ _____________________________________________&#13;
             <itunes:duration>424</itunes:duration>
             <itunes:keywords>הגנהעלהצומח,היסטוריה,ועוד,סיפורים,פודקאסטללאנושא,פרחים,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/season1/flowers/logo.jpg"/>
-            <itunes:season>1</itunes:season>
+<itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
             <googleplay:description>בפרק זה תוכלו לשמוע על הקמפיין ששינה את המדינה לחלוטין&#13;
@@ -209,7 +206,6 @@ Alexander Nakarada - Magic Tavern&#13;
             <itunes:duration>807</itunes:duration>
             <itunes:keywords>מצות,סיפורים,עלילותדם,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/season1/mazot2/logo.jpg"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
@@ -274,7 +270,6 @@ Luis Humanoide - A Ride in an...</itunes:subtitle>
             <itunes:duration>439</itunes:duration>
             <itunes:keywords>חלקא,מצות,פודקאסטללאנושא,פסח,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/season1/mazot1/logo.jpg"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
@@ -321,7 +316,6 @@ Luis Humanoide - The Bridge of Eldevior&#13;
             <itunes:duration>361</itunes:duration>
             <itunes:keywords>אוטובוסים,פודקאסטללאנושא,רדיובןצבי</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/season1/buses/logo.jpg"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
@@ -384,7 +378,6 @@ _____________________________________________________________________&#13;
             <itunes:duration>1000</itunes:duration>
             <itunes:keywords>אור,בעיות,סיפורים,פודקאסטללאנושא</itunes:keywords>
             <itunes:explicit>clean</itunes:explicit>
-            <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/episodes/season1/light/logo.jpg"/>
             <itunes:season>1</itunes:season>
             <itunes:episodeType>full</itunes:episodeType>
             <googleplay:author>Radio Ben Zvi</googleplay:author>
