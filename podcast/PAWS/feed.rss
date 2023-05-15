@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>פודקאסט ללא נושא</title>
-        <link>https://RadioBenZvi.github.io/</link>
+        <link>https://ShakedKodPodcasts.studio/PWAS</link>
         <description>
             <![CDATA[בפודקאסט זה, כל פרק על נושא אחר ומעניין]]>
         </description>
@@ -21,7 +21,7 @@
             <itunes:name>Radio Ben Zvi</itunes:name>
             <itunes:email>shakedkod@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/logo.jpg"/>
+        <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/Logo.jpg"/>
         <itunes:subtitle>בפודקאסט זה, כל פרק על נושא אחר ומעניין</itunes:subtitle>
         <itunes:summary>
             <![CDATA[בפודקאסט זה, כל פרק על נושא אחר ומעניין]]>
@@ -30,7 +30,7 @@
         <itunes:explicit>clean</itunes:explicit>
         <itunes:type>episodic</itunes:type>
         <googleplay:author>Radio Ben Zvi</googleplay:author>
-        <googleplay:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/logo.jpg"/>
+        <googleplay:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/Logo.jpg"/>
         <googleplay:email>shakedkod@gmail.com</googleplay:email>
         <googleplay:description>בפודקאסט זה, כל פרק על נושא אחר ומעניין</googleplay:description>
         <googleplay:category text="Arts"/>
