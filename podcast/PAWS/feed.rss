@@ -10,18 +10,12 @@
         <language>he</language>
         <category>Arts</category>
         <copyright>Copyright Radio Ben Zvi</copyright>
-        <image>
-            <url>https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/Logo.jpg</url>
-            <title>פודקאסט ללא נושא</title>
-            <link>https://RadioBenZvi.github.io/podcast/PAWS</link>
-        </image>
         <lastBuildDate>Sat, 18 Jun 2022 10:02:03 +0000</lastBuildDate>
         <itunes:author>Radio Ben Zvi</itunes:author>
         <itunes:owner>
             <itunes:name>Radio Ben Zvi</itunes:name>
             <itunes:email>shakedkod@gmail.com</itunes:email>
         </itunes:owner>
-        <itunes:image href="https://github.com/RadioBenZvi/RadioBenZvi.github.io/raw/main/assets/assets/podcasts/PAWS/images/Logo.jpg"/>
         <itunes:subtitle>בפודקאסט זה, כל פרק על נושא אחר ומעניין</itunes:subtitle>
         <itunes:summary>
             <![CDATA[בפודקאסט זה, כל פרק על נושא אחר ומעניין]]>
