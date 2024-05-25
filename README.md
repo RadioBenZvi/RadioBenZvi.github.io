@@ -18,7 +18,3 @@ The website of Radio Ben Zvi is here to present the podcast of the radio and the
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [Flutter](https://flutter.dev) - Web Framework
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@shakedkod](https://github.com/ShakedKod) - Idea & Design & Code
